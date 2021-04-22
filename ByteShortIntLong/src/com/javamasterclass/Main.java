@@ -40,5 +40,12 @@ public class Main {
         byte myNewByteValue = (byte) (myMinByteValue / 2);
 
         short myNewShortValue = (short) (myMinShortValue / 2);
+
+        // Primitive types challenge
+        byte challengeByte = 10;
+        short challengeShort = 255;
+        int challengeInt = 64000;
+        long challengeLong = 50_000L + 10L * (challengeByte + challengeShort + challengeInt);
+        System.out.println("ChallengeLong: " + challengeLong);
     }
 }
