@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Intro ot operators
         int result = 1 + 2;     // 1 + 2 = 3
         System.out.println("1 + 2 = " + result);
         int previousResult = result;
@@ -21,6 +22,7 @@ public class Main {
         result = result % 3;     // the remainder of (4 % 3) = 1
         System.out.println("4 % 3 = " + result);
 
+        // Abbreviating operators
         // result = result + 1;
         result++; // 1 + 1 = 2
         System.out.println("1 + 1 = " + result);
@@ -44,5 +46,12 @@ public class Main {
         // result = result - 2;
         result -= 2; // 10 - 2 = 8
         System.out.println("10 - 2 = " + result);
+
+        // Conditional Statements
+        boolean isAlien = false;
+        if (isAlien == false) {
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
+        }
     }
 }
