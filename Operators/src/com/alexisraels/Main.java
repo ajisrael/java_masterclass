@@ -86,5 +86,19 @@ public class Main {
         if (wasCar) {
             System.out.println("wasCar is true");
         }
+
+        // Challenge
+        double myDouble = 20.00d;
+        double mySecondDouble = 80.00d;
+        double myResult = (myDouble + mySecondDouble) * 100.00d;
+        System.out.println("MyResult = " + myResult);
+        double remainder = myResult % 40.00d;
+        System.out.println("Remainder = " + remainder);
+        boolean myBool = (remainder == 0.00d) ? true : false;
+        System.out.println("myBool = " + myBool);
+        if (!myBool) { // Should not print
+            System.out.println("Got some remainder");
+        }
+
     }
 }
