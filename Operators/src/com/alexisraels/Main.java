@@ -69,5 +69,16 @@ public class Main {
             System.out.println("Either or both of the conditions are true");
         }
 
+        // Assignment (=) vs Equals (==)
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if (!isCar) { // with (isCar = true) this will always execute
+            System.out.println("This is false");
+        }
+
     }
 }
