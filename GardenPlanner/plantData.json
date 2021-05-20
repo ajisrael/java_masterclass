@@ -1,0 +1,19 @@
+{
+  "plants": [
+    {
+      "name": "tomato",
+      "companions": ["basil", "garlic", "marigold"],
+      "enemies": ["cabbage", "brusselsSprout", "eggplant"]
+    },
+    {
+      "name": "basil",
+      "companions": ["oregano", "marigold", "pepper", "carrot", "tomato"],
+      "enemies": ["sage", "thyme", "oregano", "rosemary", "cucumber"]
+    },
+    {
+      "name": "eggplant",
+      "companions": ["marigold", "spinach", "oregano", "broccoli"],
+      "enemies": ["fennel"]
+    }
+  ]
+}
