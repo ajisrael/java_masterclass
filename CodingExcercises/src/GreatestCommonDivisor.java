@@ -12,18 +12,17 @@ public class GreatestCommonDivisor {
         int max = Math.max(first, second);
         int min = Math.min(first, second);
 
-        int maxDenom = -1;
+        int maxDivisor = -1;
 
         for (int i = min; i >= 2; i--)
         {
             if ((min % i == 0) && (max % i == 0))
             {
-                maxDenom = i;
+                maxDivisor = i;
                 break;
             }
-
         }
 
-        return maxDenom;
+        return maxDivisor;
     }
 }
